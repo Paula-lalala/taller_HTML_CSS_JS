@@ -10,19 +10,18 @@
 
 <body>
     <section class="page-content">
-        <h1 class="titulo">CONTADOR DE TEXTOS</h1>
+        <h1 class="titulo">VERIFICADOR DE TEXTOS</h1>
         <form class="texto-content">
                 <br><label>Texto: </label><br>
-                <textarea name="texto" required cols="80" rows="10"
-                placeholder="Ingrese aqui el texto" onkeyup="countChars(this);"></textarea>
+                <input type="text" id="verTexto" placeholder="Ingrese un valor">
             <br>
+            <button id="btn_identificar" type="button">Identificar</button>
         </form>
         <article class="texto_resultado">
-            <p id="charNum">0 caracteres</p>
+            <p id="idTexto"> </p>
         </article>
-    </section>
 
-    <script src="js/ejer1.js"></script>
+    <script src="js/ejer2.js"></script>
 </body>
 
 </html>
